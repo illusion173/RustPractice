@@ -1,0 +1,15 @@
+[package]
+name = "project_stocky_rust"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jeremiah Webb"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3.26"
+exitfailure = "0.5.1"
+reqwest = { version = "0.11.10", features = ["json"] }
+serde = "1.0.137"
+serde_json = "1.0.81"
+serde_derive = "1.0.137"
+tokio = { version = "1.18.2", features = ["full"] }
