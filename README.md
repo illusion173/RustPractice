@@ -5,3 +5,4 @@ Some of my first attempts at programming Rust!
 [X] Factorial Program that uses recursion.<br>
 [X] First basic Pong game to learn structs and methods. <br>
 [] Neural Network Program that I am still trying to figure out. <br>
+[] Some basic Project Stocky API stuff, some basic API get to Struct practice. <br>
