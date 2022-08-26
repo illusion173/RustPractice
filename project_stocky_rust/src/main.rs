@@ -32,7 +32,7 @@ impl
 
 #[tokio::main]
 async fn main() -> Result<(), ExitFailure> {
-    let api_key = "ca1f2uaad3i6tbvcjrc0".to_string();
+    let api_key = "#".to_string();
     let args: Vec<String> = env::args().collect();
     let mut symbol: String = "AAPL".to_string();
 
